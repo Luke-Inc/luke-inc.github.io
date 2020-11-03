@@ -1,0 +1,89 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+
+html {
+    font-family:Montserrat, sans-serif;
+}
+
+body {
+    background-color:whitesmoke;
+    margin-top: 0px;
+    margin-inline: 0px;
+}
+
+h1 {    
+    margin: 0;
+    padding: 25px;
+    font-size: 48px;
+}   
+
+h2 {
+    margin-left: 10px;
+}
+
+p {
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+li {
+    padding:10px;
+}
+
+  .headline {
+      overflow: hidden;
+      margin: auto;
+      align-items: center;
+      width: 100%;
+      border-bottom: 1px solid black;
+
+  }
+
+  .headline div {
+      border: 3px solid #73AD21;
+      border-color: black;
+  }
+
+  .headline h1 {
+      float: left;
+  }
+
+  .headline img {
+      float: left;
+      width:100px;
+      height:100px;
+  }
+
+  .password_div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 25%;
+    margin: auto;
+  }
+
+  input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+
